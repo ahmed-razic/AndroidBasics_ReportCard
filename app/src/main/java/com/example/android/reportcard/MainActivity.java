@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView text = findViewById(R.id.textView);
         text.setText(studentAhmedRazic.toString());
-        Toast.makeText(this, "Bosnian language grade: " + studentAhmedRazic.getBosnianGrade(), Toast.LENGTH_LONG).show();
 
 
         ReportCard studentIbrahimRazic = new ReportCard("Ibrahim", "Razic", 101225588,
@@ -31,5 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
         TextView text2 = findViewById(R.id.textView2);
         text2.setText(studentIbrahimRazic.toString());
+
+
+        Toast.makeText(this, "Bosnian language grade: " + studentAhmedRazic.getBosnianGrade(), Toast.LENGTH_LONG).show();
     }
 }
